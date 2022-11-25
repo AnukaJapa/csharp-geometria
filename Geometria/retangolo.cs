@@ -23,5 +23,15 @@ namespace Geometria
             return perimetro;
         }
    
+        public void StampaRetangolo(string nomeDelRetangolo)
+        {
+
+            Console.WriteLine($@" ----{nomeDelRetangolo}---- 
+Base: {baseRettangolo}
+Altezza: {altezzaRettangolo}
+Perimetro: {CalcolaPerimento()}
+Area:{CalcolaArea()}");
+
+        }
     }
 }

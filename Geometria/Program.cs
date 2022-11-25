@@ -21,12 +21,8 @@ int perimetroRetangoloUtente = retangoloUtente.CalcolaPerimento();
 
 //stampare a video i risultati
 Console.WriteLine(@$"questo è l'area del retangolo creato dall'utente : {ariaRetangoloUtente} 
-questo è invece il perimetro creato dall'utente : {perimetroRetangoloUtente}
+questo è invece il perimetro del retangolo creato dall'utente : {perimetroRetangoloUtente}
 ");
-
-
-
-
 
 
 
@@ -37,4 +33,35 @@ questo è invece il perimetro creato dall'utente : {perimetroRetangoloUtente}
 //altezza: 10 cm
 //Perimetro: 60 cm
 //Area: 200 cm2
+
+Retangolo retangolo1 = new Retangolo();
+Retangolo retangolo2 = new Retangolo();
+Retangolo retangolo3 = new Retangolo();
+Retangolo retangolo4 = new Retangolo();
+Retangolo retangolo5 = new Retangolo();
+
+retangolo1.baseRettangolo = 1;
+retangolo2.baseRettangolo = 2;
+retangolo3.baseRettangolo = 3;
+retangolo4.baseRettangolo = 4;
+retangolo5.baseRettangolo = 5;
+
+retangolo1.altezzaRettangolo = 1;
+retangolo2.altezzaRettangolo = 2;
+retangolo3.altezzaRettangolo = 3;
+retangolo4.altezzaRettangolo = 4;
+retangolo5.altezzaRettangolo = 5;
+
+retangolo1.StampaRetangolo("retangolo1");
+retangolo2.StampaRetangolo("retangolo2");
+retangolo3.StampaRetangolo("retangolo3");
+retangolo4.StampaRetangolo("retangolo4");
+retangolo5.StampaRetangolo("retangolo5");
+
+
+
+
+
+
+
 
