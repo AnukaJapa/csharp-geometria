@@ -12,16 +12,16 @@ int baseRetangoloUtente = int.Parse(Console.ReadLine());
 Console.WriteLine("inserisci altezza del retangolo");
 int altezzaRetangoloUtente = int.Parse(Console.ReadLine());
 
-Retangolo retangoloUtente = new Retangolo();
-retangoloUtente.altezzaRettangolo = altezzaRetangoloUtente;
-retangoloUtente.baseRettangolo = baseRetangoloUtente;
+Rettangolo rettangoloUtente = new Rettangolo();
+rettangoloUtente.altezzaRettangolo = altezzaRetangoloUtente;
+rettangoloUtente.baseRettangolo = baseRetangoloUtente;
 
-int ariaRetangoloUtente = retangoloUtente.CalcolaArea();
-int perimetroRetangoloUtente = retangoloUtente.CalcolaPerimento();
+int ariaRettangoloUtente = rettangoloUtente.CalcolaArea();
+int perimetroRettangoloUtente = rettangoloUtente.CalcolaPerimento();
 
 //stampare a video i risultati
-Console.WriteLine(@$"questo è l'area del retangolo creato dall'utente : {ariaRetangoloUtente} 
-questo è invece il perimetro del retangolo creato dall'utente : {perimetroRetangoloUtente}
+Console.WriteLine(@$"questo è l'area del retangolo creato dall'utente : {ariaRettangoloUtente} 
+questo è invece il perimetro del retangolo creato dall'utente : {perimetroRettangoloUtente}
 ");
 
 
@@ -34,29 +34,29 @@ questo è invece il perimetro del retangolo creato dall'utente : {perimetroRetan
 //Perimetro: 60 cm
 //Area: 200 cm2
 
-Retangolo retangolo1 = new Retangolo();
-Retangolo retangolo2 = new Retangolo();
-Retangolo retangolo3 = new Retangolo();
-Retangolo retangolo4 = new Retangolo();
-Retangolo retangolo5 = new Retangolo();
+Rettangolo rettangolo1 = new Rettangolo();
+Rettangolo rettangolo2 = new Rettangolo();
+Rettangolo rettangolo3 = new Rettangolo();
+Rettangolo rettangolo4 = new Rettangolo();
+Rettangolo rettangolo5 = new Rettangolo();
 
-retangolo1.baseRettangolo = 1;
-retangolo2.baseRettangolo = 2;
-retangolo3.baseRettangolo = 3;
-retangolo4.baseRettangolo = 4;
-retangolo5.baseRettangolo = 5;
+rettangolo1.baseRettangolo = 1;
+rettangolo2.baseRettangolo = 2;
+rettangolo3.baseRettangolo = 3;
+rettangolo4.baseRettangolo = 4;
+rettangolo5.baseRettangolo = 5;
 
-retangolo1.altezzaRettangolo = 1;
-retangolo2.altezzaRettangolo = 2;
-retangolo3.altezzaRettangolo = 3;
-retangolo4.altezzaRettangolo = 4;
-retangolo5.altezzaRettangolo = 5;
+rettangolo1.altezzaRettangolo = 1;
+rettangolo2.altezzaRettangolo = 2;
+rettangolo3.altezzaRettangolo = 3;
+rettangolo4.altezzaRettangolo = 4;
+rettangolo5.altezzaRettangolo = 5;
 
-retangolo1.StampaRetangolo("retangolo1");
-retangolo2.StampaRetangolo("retangolo2");
-retangolo3.StampaRetangolo("retangolo3");
-retangolo4.StampaRetangolo("retangolo4");
-retangolo5.StampaRetangolo("retangolo5");
+rettangolo1.StampaRetangolo("rettangolo1");
+rettangolo2.StampaRetangolo("rettangolo2");
+rettangolo3.StampaRetangolo("rettangolo3");
+rettangolo4.StampaRetangolo("rettangolo4");
+rettangolo5.StampaRetangolo("rettangolo5");
 
 
 
