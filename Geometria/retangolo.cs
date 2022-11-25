@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Geometria
 {
-    public class Retangolo
+    public class Rettangolo
     {
         public int baseRettangolo;
         public int altezzaRettangolo;
