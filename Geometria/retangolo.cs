@@ -33,5 +33,7 @@ Perimetro: {CalcolaPerimento()}
 Area:{CalcolaArea()}");
 
         }
+
+        
     }
 }
