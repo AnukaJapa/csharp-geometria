@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace Geometria
 {
-    internal class retangolo
+    public class Retangolo
     {
+        public int baseRettangolo;
+        public int altezzaRettangolo;
+
+        public int CalcolaArea()
+        {
+            int area = baseRettangolo * altezzaRettangolo;
+            return area;
+        }
+
+        public int CalcolaPerimento()
+        {
+            int perimetro = (baseRettangolo + altezzaRettangolo) * 2;
+            return perimetro;
+        }
+   
     }
 }
